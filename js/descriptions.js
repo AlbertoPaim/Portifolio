@@ -12,6 +12,9 @@ let innerSkill = [
 
 '<h4>GitHub</h4><br>Criação de repositórios<br> Clonagem de repositórios<br> Envio de commits<br> Criar Páginas Pull Requests',
     
-'<h4>JavaScript</h4><br>Sintaxe <br> Manipulação do DOM <br> Funções <br> Manipulação de arrays e objetos <br> Assincronia e chamadas de API <br> Manipulação de strings  <br> Tratamento de erros'
+'<h4>JavaScript</h4><br>Sintaxe <br> Manipulação do DOM <br> Funções <br> Manipulação de arrays e objetos <br> Assincronia e chamadas de API <br> Manipulação de strings  <br> Tratamento de erros <br> Local Storage',
+
+'<h4>TypeScript</h4><br>Tipos de dados <br> Declaração de variáveis e funções <br> Interfaces <br> Configuração do TypeScript <br>'
+
 ]
 

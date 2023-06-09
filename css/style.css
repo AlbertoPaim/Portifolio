@@ -246,6 +246,18 @@ text-transform: capitalize;
     transition: 0.5s;
 }
 
+.skill svg{
+    width: 130px;
+  
+    color: var(--gray) ;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.skill svg:hover{
+    color: var(--blue) ;
+    transition: 0.5s;
+}
+
 
 .skill-desc{
     display: none;
@@ -483,6 +495,12 @@ background-size: cover;
     .skill i{
         font-size: 100px;
     }
+
+    .skill svg{
+        width: 90px;
+        
+    }
+
 
     .skill-desc.show{
         width: 100vw;

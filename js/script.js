@@ -77,7 +77,7 @@ window.addEventListener('load', typerText);
 const skillDesc = document.querySelector('.skill-desc')
 let skillInfo = document.querySelector('.skill-result');
 let skills = document.querySelectorAll('.skill');
-const icons = document.querySelectorAll('.skill i');
+const icons = document.querySelectorAll('.skill .fa-brands');
 
 
 function skillShow() {
