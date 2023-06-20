@@ -18,7 +18,8 @@ let innerSkill = [
 
 '<h4>TailwindCss</h4>Classes utilitárias <br> Personalização <br> FlexBox<br>Grid<br> Animações em geral <br> Manipulação de cores e Gradientes <br> Darkmode <br>',
 
-'<h4>React.js</h4>Learning in progress <br>'
+'<h4>React.js</h4>Learning in progress <br>',
 
+'<h4>Next.js</h4>Learning in progress <br>'
 ]
 

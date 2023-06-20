@@ -240,6 +240,7 @@ text-transform: capitalize;
 opacity: 0.5;
 cursor: pointer;
 transition: 0.5;
+color: black;
 }
 
 .skill .fa-brands:hover{
