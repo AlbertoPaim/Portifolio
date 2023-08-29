@@ -5,34 +5,34 @@ const sections = document.querySelectorAll('section')
 
 let actualLi = 0
 
-menuLi.forEach((li, i)=>{
-  
-  li.addEventListener('click', ()=>{
+menuLi.forEach((li, i) => {
+
+  li.addEventListener('click', () => {
     removeLi()
     li.classList.add('show')
     actualLi = i
 
-        removeSection()
-        sections[i].style.display ='flex'
-       
+    removeSection()
+    sections[i].style.display = 'flex'
+
   })
 
 })
 
 function removeSection() {
-  
-  sections.forEach(item=>{
+
+  sections.forEach(item => {
     item.style.display = 'none'
   })
 }
 
 function removeLi() {
-  menuLi.forEach(item =>{
+  menuLi.forEach(item => {
     item.classList.remove('show')
   })
 
-  
-} 
+
+}
 
 
 
@@ -82,26 +82,26 @@ const icons = document.querySelectorAll('.skill .fa-brands');
 
 function skillShow() {
   skillDesc.classList.add('show')
-  document.querySelector('.fa-circle-left').style.display ='flex'
- skills.forEach(item =>{
-  item.style.display ='none'
- })
+  document.querySelector('.fa-circle-left').style.display = 'flex'
+  skills.forEach(item => {
+    item.style.display = 'none'
+  })
 }
 
 
 function skillBack() {
   skillDesc.classList.remove('show')
-  document.querySelector('.fa-circle-left').style.display ='none'
-  skills.forEach(item =>{
-    item.style.display ='flex'
-   })
+  document.querySelector('.fa-circle-left').style.display = 'none'
+  skills.forEach(item => {
+    item.style.display = 'flex'
+  })
 }
 
 
-icons.forEach((skill, i) =>{
-  skill.addEventListener('click', ()=>{
-  skillDesc.innerHTML = innerSkill[i]
-  skillShow() 
+icons.forEach((skill, i) => {
+  skill.addEventListener('click', () => {
+    skillDesc.innerHTML = innerSkill[i]
+    skillShow()
   })
 })
 
@@ -123,36 +123,36 @@ const project = document.querySelectorAll('.project')
 
 
 
-projectTitle.forEach((title, i)=>{
-  title.addEventListener('click', ()=>{
+projectTitle.forEach((title, i) => {
+  title.addEventListener('click', () => {
     removeTitle()
     removeProject()
     title.classList.add('show')
     project[i].classList.add('hidden')
     project[i].classList.remove('hidden')
-    project[i].style.display ='block'
+    project[i].style.display = 'block'
     document.querySelector('#btnproject').classList.add('show')
-    
+
   })
 })
 
 function removeTitle() {
-  projectTitle.forEach(title =>{
-      title.classList.remove('show')
+  projectTitle.forEach(title => {
+    title.classList.remove('show')
   })
 }
 
 
 function removeProject() {
-  project.forEach(item=>{
+  project.forEach(item => {
     item.classList.add('hidden')
-    item.style.display ='none'
+    item.style.display = 'none'
   })
 }
 
 function projetBack() {
-  project.forEach(item=>{
-    item.style.display ='none'
+  project.forEach(item => {
+    item.style.display = 'none'
     document.querySelector('#btnproject').classList.remove('show')
   })
 }
